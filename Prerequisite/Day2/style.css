@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+}
+
+p span {
+    color: darkblue;
+}
+
+.highlight {
+    background-color: yellowgreen;
+}

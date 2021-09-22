@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table>
+        <tfoot>
+            <h1>Registration Form</h1>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td><input id="firstName" type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td><input id="lastName" type="text" name="lastName"></td>
+            </tr> 
+            <tr>
+                <td><label for="course">Select Course</label></td>
+                <td>
+                    <select id="course" name="course">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                        <option>React</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                       <legend>Select your gender</legend>
+                        <input type="radio" id="gender" name="male" value="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" id="gender" name="female" value="female">
+                        <label for="gender">Female</label>
+                        <input type="radio" id="gender" name="trans" value="trans">
+                        <label for="gender">Transgender</label>
+                </td>                        
+                </fieldset>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Select your City</legend>
+                        <input type="checkbox" id="mumbai" name="mum" value="mumbai">
+                        <label for="mumbai">Mumbai</label>
+                        <input type="checkbox" id="pune" name="pun" value="pune">
+                        <label for="pune">Pune</label>
+                        <input type="checkbox" id="nashik" name="nak" value="nashik">
+                        <label for="nashik">Nashik</label>
+                    </fieldset>            
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Telephone</label></td>
+                <td><input id="telephone" type="tel" name="telephone"></td>
+            </tr>      
+            <tr>
+                <td><label for="textMessage">Text Message</label></td>
+                <td><textarea id="textMessage" name="textMessage"></textarea></td>
+            </tr>        
+            <tfoot>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </tfoot>
+    </tbody>
+    </table>
+    </form>
+    
+</body>
+</html>
